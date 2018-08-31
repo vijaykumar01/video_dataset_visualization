@@ -1,1 +1,6 @@
-ok
+This script does a t-sne visualization of popular action recognition/localization datasets to understand their similarities. An average 50-D embedding is obtained for each dataset/action from word tokens appearing in ground-truth action labels.
+
+Prerequisite:
+1. 50-D Glove embedding: https://nlp.stanford.edu/projects/glove/
+2. Download t-sne from the below path and include to the python path:
+   https://lvdmaaten.github.io/tsne/code/tsne_python.zip 
